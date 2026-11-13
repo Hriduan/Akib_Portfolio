@@ -1,0 +1,18 @@
+order: 1
+title: Autonomous Wheelchair for Safe Navigation and Remote Biomedical Monitoring
+footer_title: Autonomous Wheelchair
+category: Capstone · Embedded systems
+summary: A four-person capstone integrating machine learning with Raspberry Pi 5 and ESP32-based hardware for safe navigation and remote biomedical monitoring.
+
+[details]
+Developed as a four-person capstone, this project explores an autonomous wheelchair designed around safe navigation and remote biomedical monitoring.
+The system integrates machine learning with Raspberry Pi 5 and ESP32-based embedded hardware. The team presented its technical work to supervisors and external evaluators, who described the capstone as technically sound with real-world applicability.
+
+[features]
+Four-member capstone team
+Machine learning integrated with Raspberry Pi 5
+ESP32-based embedded hardware
+Project focus on safe navigation and remote biomedical monitoring
+
+[tools]
+Machine learning, Raspberry Pi 5, ESP32, Embedded systems

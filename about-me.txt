@@ -1,0 +1,58 @@
+# Akib Rahman's engineering portfolio
+site_name: Akib Rahman
+full_name: Akib Rahman
+role: Final-year Electrical and Electronic Engineering student
+tagline: I am interested in digital design and embedded systems and I learn by building and testing engineering ideas and explaining what I find.
+badge: EEE · AIUB · Class of 2027
+email: akibrahman499@gmail.com
+phone: +880 170 737 4047
+linkedin:
+location: Dhaka, Bangladesh
+university: American International University–Bangladesh (AIUB)
+university_short: AIUB
+field_short: EEE
+coursework: Focused on digital design, embedded systems and engineering fundamentals.
+footer_note: Curious engineering, carefully tested.
+year: auto
+site_url:
+profile_photo: akib-rahman.jpg
+cv_file: Akib_Rahman_CV.pdf
+
+[typing words]
+Final-year EEE student at AIUB
+Digital design and VLSI learner
+Embedded systems project builder
+Curious about semiconductor technology
+
+[about]
+I am a final-year Electrical and Electronic Engineering student at AIUB, expected to graduate in 2027. I enjoy digital design and embedded systems and I am building my skills in VLSI, SystemVerilog, C/C++ and MATLAB.
+My capstone project, “An Autonomous Wheelchair for Safe Navigation and Remote Biomedical Monitoring,” brings machine learning together with Raspberry Pi 5 and ESP32-based embedded hardware. I have also worked with a six-member team on an ATmega328P-based smart farm system.
+I value clear communication and collaborative engineering. I have presented technical work to supervisors and external evaluators and I am keen to keep learning through hands-on projects and an engineering internship.
+
+[stats]
+3.66 | CGPA at AIUB
+2027 | expected graduation
+{projects} | documented projects
+
+[interests]
+Digital design | Exploring how logic and code shape practical engineering systems.
+Embedded systems | Working with Raspberry Pi 5, ESP32 and ATmega328P in academic projects.
+Semiconductor technology | Motivated to learn more about VLSI and the semiconductor industry.
+Human-centered engineering | Interested in projects focused on safe mobility and remote monitoring.
+
+[education]
+American International University–Bangladesh (AIUB) | BSc in Electrical and Electronic Engineering | Dhaka, Bangladesh | CGPA: 3.66 / 4.00 | Expected 2027
+St. Gregory High School and College | Higher Secondary Certificate | Dhaka, Bangladesh | GPA: 5.00 / 5.00 | Completed
+Ghorashal Pilot High School | Secondary School Certificate | Bangladesh | GPA: 4.89 / 5.00 | Completed
+
+[experience]
+Capstone | Team project collaboration | Contributed to a four-member capstone on an autonomous wheelchair for safe navigation and remote biomedical monitoring.
+Technical communication | Project presentation | Presented capstone work to supervisors and external evaluators; the project was described as technically sound with real-world applicability.
+Group project | Smart farm system | Collaborated in a six-member team on an ATmega328P-based smart farm system and IEEE-style technical reporting.
+
+[skills]
+Digital design | VLSI, SystemVerilog (intermediate)
+Programming & analysis | C/C++ (intermediate), MATLAB (intermediate)
+Embedded systems | Raspberry Pi 5, ESP32, ATmega328P
+EEE foundations | Circuit analysis, electrical machines, electronics, embedded systems
+Professional practice | Teamwork, technical presentations, documentation, problem solving
