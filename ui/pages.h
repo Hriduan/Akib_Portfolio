@@ -27,6 +27,16 @@ string homePage() {
     s += "</div>\n<div class=\"photo-wrap\"><div class=\"photo-frame\"><img src=\"" + assetUrl(PROFILE_PHOTO) + "\" alt=\"Portrait of " + FULL_NAME + "\" fetchpriority=\"high\"></div>";
     s += "<div class=\"photo-badge\">" + BADGE + "</div></div>\n</section>\n";
 
+    s += "<section class=\"wrap intro-feature\" aria-labelledby=\"intro-title\">\n";
+    s += "<div class=\"intro-feature-copy\"><p class=\"section-kicker\">Meet Akib</p><h2 id=\"intro-title\">A short hello, before the project notes.</h2>";
+    s += "<p>In this introduction I share a little about my engineering studies and how I like to work through a project.</p>";
+    s += "<div class=\"intro-feature-meta\"><span>EEE · AIUB</span><span>Dhaka, Bangladesh</span></div></div>\n";
+    s += "<div class=\"intro-feature-player\"><div class=\"intro-player-heading\"><span>PERSONAL INTRODUCTION</span><span>VIDEO / AUDIO</span></div>";
+    s += "<video controls playsinline preload=\"metadata\" poster=\"assets/akib-rahman.jpg\" aria-label=\"Introduction video from Akib Rahman\">";
+    s += "<source src=\"assets/Akib_Rahman_Intro.mp4\" type=\"video/mp4\">";
+    s += "<p>Your browser does not support this video. <a href=\"assets/Akib_Rahman_Intro.mp4\">Download the introduction video</a>.</p></video>";
+    s += "<p class=\"intro-player-note\">Use the video controls to play and adjust the sound.</p></div>\n</section>\n";
+
     s += "<section class=\"wrap section\" aria-labelledby=\"snapshot-title\"><div class=\"snapshot\">\n";
     s += "<div class=\"snapshot-copy\"><p class=\"section-kicker\">A quick introduction</p><h2 id=\"snapshot-title\">Curious about what happens between an idea and a working system.</h2>";
     s += "<p>My capstone combines machine learning with Raspberry Pi 5 and ESP32-based hardware. I am interested in how careful engineering choices make technology useful in the real world.</p>";

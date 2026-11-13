@@ -4,6 +4,14 @@ footer_title: Smart Farm System
 category: Group project · Embedded systems
 summary: A six-member group project centred on an ATmega328P-based smart farm system and IEEE-style technical reporting.
 
+image_note: Four original demo illustrations explain the project concept. They are not photographs or evidence of a completed prototype.
+
+[photos]
+farm-demo-01.png | ATmega328P system map concept
+farm-demo-02.png | Field sensing layout illustration
+farm-demo-03.png | Sensing-to-irrigation flow concept
+farm-demo-04.png | Farm monitor interface concept
+
 [details]
 This six-member group project explored a smart farm system built around an ATmega328P microcontroller.
 The team used IEEE-style reporting to document the technical work, giving me practice in structured technical communication and collaboration.

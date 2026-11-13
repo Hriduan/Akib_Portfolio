@@ -16,7 +16,7 @@ using namespace std;
 string projectTile(const Project& p) {
     string s = "<a class=\"tile\" href=\"project-" + p.slug + ".html\">\n";
     if (!p.photos.empty()) {
-        s += "<div class=\"tile-img\"><img src=\"" + projectAssetUrl(p, p.photos[0].file) + "\" alt=\"" + p.title + "\" loading=\"lazy\"><span class=\"tile-cat\">" + p.category + "</span></div>\n";
+        s += "<div class=\"tile-img\"><img src=\"" + projectAssetUrl(p, p.photos[0].file) + "\" alt=\"" + p.title + "\" loading=\"eager\"></div>\n";
     } else {
         string n = p.order < 10 ? "0" + to_string(p.order) : to_string(p.order);
         s += "<div class=\"tile-cover\"><span class=\"tile-index\">PROJECT NOTE / " + n + "</span><span class=\"tile-cat\">" + p.category + "</span><h3>" + p.title + "</h3><span class=\"tile-cover-footer\">" + p.footerTitle + " <b aria-hidden=\"true\">↗</b></span></div>\n";
@@ -50,12 +50,12 @@ string projectPage(int i) {
 
     s += "<section class=\"wrap section\">\n<div class=\"detail\">\n<div>\n";
 
-    // Use supplied project photographs when available. Do not fabricate evidence.
+    // Render supplied photos or clearly labeled demo illustrations from each project file.
     if (!p.photos.empty()) {
         if (!p.imageNote.empty()) s += "<p class=\"image-note\">" + p.imageNote + "</p>\n";
         s += "<div class=\"gallery\" id=\"gallery\">\n";
         for (int k = 0; k < (int)p.photos.size(); k++) {
-            s += "<figure><a href=\"#pic-" + to_string(k) + "\"><img src=\"" + projectAssetUrl(p, p.photos[k].file) + "\" alt=\"" + p.photos[k].caption + "\" loading=\"lazy\">";
+            s += "<figure><a href=\"#pic-" + to_string(k) + "\"><img src=\"" + projectAssetUrl(p, p.photos[k].file) + "\" alt=\"" + p.photos[k].caption + "\" loading=\"eager\">";
             s += "<figcaption>" + p.photos[k].caption + "</figcaption></a></figure>\n";
         }
         s += "</div>\n";

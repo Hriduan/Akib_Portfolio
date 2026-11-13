@@ -7,6 +7,7 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parent.parent
+OPTIONAL_ASSETS = {'assets/Akib_Rahman_Intro.mp4'}
 class Page(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
@@ -50,7 +51,7 @@ def main():
             if not target.is_relative_to(ROOT):
                 errors.append(file.name + ': path leaves the website: ' + ref)
                 continue
-            if not target.exists():
+            if not target.exists() and u.path not in OPTIONAL_ASSETS:
                 errors.append(file.name + ': missing local file: ' + ref)
             if u.fragment and target in parsed and unquote(u.fragment) not in parsed[target].ids:
                 errors.append(file.name + ': missing anchor: ' + ref)

@@ -28,8 +28,8 @@ Then open `index.html` in a browser. The source of truth is `about-me.txt`, the 
 
 - `assets/akib-rahman.jpg` — supplied profile portrait
 - `assets/Akib_Rahman_CV.pdf` — portfolio-ready CV based on the supplied information
-
-Project pages do not use invented prototype photos or performance measurements. Add authentic images only when Akib can verify and share them.
+- `assets/Akib_Rahman_Intro.mp4` — optional homepage video introduction; add the file at this exact path. Use an MP4 with H.264 video and AAC audio for broad browser support. The native player has controls and audio enabled; visitors can play it and adjust volume.
+- Each project folder contains four clearly labeled concept illustrations for its project gallery. These are demo visuals, not photographs or evidence of completed prototypes.
 
 ## Deploy
 
