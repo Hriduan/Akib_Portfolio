@@ -22,7 +22,7 @@ g++ -std=c++17 main.cpp -o build_site
 python3 tools/check_site.py
 ```
 
-Then open `index.html` in a browser. The source of truth is `about-me.txt`, the project text files under `projects/`, and the shared layout/style files under `ui/`. Rebuild after changing content.
+Then open `index.html` in a browser. The source of truth is `about-me.txt` plus the project text files under `projects/` and the shared layout/style files under `ui/`. Rebuild after changing content.
 
 ## Assets
 

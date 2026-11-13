@@ -28,7 +28,7 @@ string projectTile(const Project& p) {
 // ---------------------- PROJECTS PAGE ----------------------
 string projectsPage() {
     string s = startPage("Projects", "projects.html");
-    s += pageTitle("Selected projects", "From a mobility-focused capstone to a microcontroller-based smart farm system, these projects show how I learn by building with others.");
+    s += pageTitle("Selected projects", "Here are two projects I have documented so far: a wheelchair capstone and a smart farm concept built around the ATmega328P.");
     s += "<section class=\"wrap section\">\n<div class=\"projects-grid\">\n";
     for (int i = 0; i < (int)projects.size(); i++) {
         s += projectTile(projects[i]);
@@ -64,11 +64,11 @@ string projectPage(int i) {
     }
 
     // text
-    s += "<div class=\"text-block\">\n<h2>About this project</h2>\n";
+    s += "<div class=\"text-block\">\n<h2>How the project took shape</h2>\n";
     for (int k = 0; k < (int)p.details.size(); k++) {
         s += "<p>" + p.details[k] + "</p>\n";
     }
-    s += "<h2>What it does</h2>\n<ul class=\"check\">\n";
+    s += "<h2>Project focus</h2>\n<ul class=\"check\">\n";
     for (int k = 0; k < (int)p.features.size(); k++) {
         s += "<li>" + p.features[k] + "</li>\n";
     }

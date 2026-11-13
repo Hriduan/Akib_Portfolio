@@ -2,9 +2,9 @@ order: 2
 title: ATmega328P Smart Farm System
 footer_title: Smart Farm System
 category: Group project · Embedded systems
-summary: A six-member group project centred on an ATmega328P-based smart farm system and IEEE-style technical reporting.
+summary: I worked with a six-person team on a smart farm concept built around the ATmega328P. We also documented our work in an IEEE-style report.
 
-image_note: Four original demo illustrations explain the project concept. They are not photographs or evidence of a completed prototype.
+image_note: These four illustrations help explain the project idea. They are visual aids rather than photos or proof of a completed prototype.
 
 [photos]
 farm-demo-01.png | ATmega328P system map concept
@@ -13,13 +13,14 @@ farm-demo-03.png | Sensing-to-irrigation flow concept
 farm-demo-04.png | Farm monitor interface concept
 
 [details]
-This six-member group project explored a smart farm system built around an ATmega328P microcontroller.
-The team used IEEE-style reporting to document the technical work, giving me practice in structured technical communication and collaboration.
-
+This six-person group project focused on a smart farm system built around the ATmega328P. We looked at how a microcontroller could sit at the centre of a farming-focused engineering idea.
+Alongside the embedded-systems work our team prepared an IEEE-style report to record the technical project. Putting the work into that format gave us practice organizing information and making an engineering project easier for others to follow.
+Working in a larger group meant sharing ideas and keeping the written work consistent. I came away with more experience collaborating on a technical project and explaining its purpose in a structured way.
+The project remains a useful example of my interest in microcontrollers and practical engineering. The illustrations here show possible ways to picture the concept. They are not documentation of a completed system.
 [features]
-ATmega328P-based smart farm system
-Six-member project team
-IEEE-style technical reporting
-
+A smart farm concept built around the ATmega328P
+Six-person project team
+IEEE-style technical report
+A focus on embedded systems and clear project documentation
 [tools]
 ATmega328P, Microcontroller, Team collaboration, Technical documentation

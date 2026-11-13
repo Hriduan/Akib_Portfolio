@@ -2,9 +2,9 @@ order: 1
 title: Autonomous Wheelchair for Safe Navigation and Remote Biomedical Monitoring
 footer_title: Autonomous Wheelchair
 category: Capstone · Embedded systems
-summary: A four-person capstone integrating machine learning with Raspberry Pi 5 and ESP32-based hardware for safe navigation and remote biomedical monitoring.
+summary: Our four-person capstone explored an autonomous wheelchair for safer navigation and remote biomedical monitoring. We brought machine learning together with Raspberry Pi 5 and ESP32-based hardware.
 
-image_note: Four original demo illustrations explain the project concept. They are not photographs or evidence of a completed prototype.
+image_note: These four illustrations help explain the project idea. They are visual aids rather than photos or proof of a completed prototype.
 
 [photos]
 wheelchair-demo-01.png | Mobility platform concept illustration
@@ -13,14 +13,14 @@ wheelchair-demo-03.png | Illustrative route-planning scene
 wheelchair-demo-04.png | Remote monitoring interface concept
 
 [details]
-Developed as a four-person capstone, this project explores an autonomous wheelchair designed around safe navigation and remote biomedical monitoring.
-The system integrates machine learning with Raspberry Pi 5 and ESP32-based embedded hardware. The team presented its technical work to supervisors and external evaluators, who described the capstone as technically sound with real-world applicability.
-
+Our four-person capstone started with a practical question: how could a wheelchair navigate more safely while also making biomedical information available for remote monitoring? We explored an autonomous wheelchair concept around those two goals.
+The project brought machine learning together with Raspberry Pi 5 and ESP32-based embedded hardware. One of the central challenges was thinking through how the software and hardware could work together as part of one assistive system.
+We presented our technical work to supervisors and external evaluators. They described the capstone as technically sound with real-world applicability. That feedback encouraged us to explain both the engineering choices and the need the project was intended to address.
+For me the project was also a chance to work through a complex idea with a team and explain it to other people. The illustrations on this page are concept visuals made for the portfolio rather than records of a finished build.
 [features]
-Four-member capstone team
-Machine learning integrated with Raspberry Pi 5
-ESP32-based embedded hardware
-Project focus on safe navigation and remote biomedical monitoring
-
+Four-person capstone team
+Machine learning explored as part of the navigation concept
+Raspberry Pi 5 and ESP32-based embedded hardware
+Safer navigation and remote biomedical monitoring as the project’s main aims
 [tools]
 Machine learning, Raspberry Pi 5, ESP32, Embedded systems

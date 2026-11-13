@@ -118,7 +118,7 @@ string chipSvg() {
 string ctaHtml() {
     string s = "<section class=\"wrap\">\n<div class=\"cta reveal\">\n";
     s += "<h2>Good engineering starts with a good question.</h2>\n";
-    s += "<p>I am happy to talk about my projects, engineering studies or internship opportunities.</p>\n";
+    s += "<p>I would be glad to talk about a project, my studies or an internship opportunity.</p>\n";
     s += "<div class=\"btn-row\"><a class=\"btn primary\" href=\"contact.html\">Contact me</a>";
     s += "<a class=\"btn\" href=\"" + assetUrl(CV_FILE) + "\" download>Download CV</a></div>\n";
     s += "</div>\n</section>\n";
