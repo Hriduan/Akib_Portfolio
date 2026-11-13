@@ -22,7 +22,6 @@ string homePage() {
     s += "<p class=\"hero-text\">" + TAGLINE + "</p>\n";
     s += "<div class=\"btn-row\"><a class=\"btn primary\" href=\"projects.html\">Explore projects <span aria-hidden=\"true\">→</span></a>";
     s += "<a class=\"btn\" href=\"resume.html\">View CV</a></div>\n";
-    s += "<div class=\"hero-meta\"><span><b>Focus</b> Digital design &amp; embedded systems</span><span><b>Based in</b> " + LOCATION + "</span></div>\n";
     s += "</div>\n<div class=\"photo-wrap\"><div class=\"photo-frame\"><img src=\"" + assetUrl(PROFILE_PHOTO) + "\" alt=\"Portrait of " + FULL_NAME + "\" fetchpriority=\"high\"></div>";
     s += "</div>\n</section>\n";
 
